@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Projet back-end</title>
+    <link href="styles.css" rel="stylesheet" >
+    
+</head>
+<body>
+    <h1>Jeu multijoueurs</h1>
+    <div class="form-container">
+      <form action ="/" id="login" method="POST">
+        <input type="text" name= "pseudo" id= "pseudo" placeholder= "pseudo" autocomplete="off">
+        <input type="submit">
+      </form>
+    </div>
+    <div id= "player"></div>
+    <div id ="opponent" style="left:500px"></div>
+    <div id="timer-wrapper">
+      <div id="timer"></div>
+    </div>
+    <div id="my-score">Mon score : <span id="score">0</span></div>
+    <div id="opponentScore"> Score adversaire : <span id="ennemy-score">0</span></div>
+    <div id="end"></div>
+    <div id="playerZone"></div>
+    <!--<div id="target"></div>-->
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src= "https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="client.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+  }
+
+  h1 {
+    text-align: center;
+    color: white
+  }
+
+  .form-container {
+    margin-top: 100px;
+  }
+
+  form {
+    display: block;
+    margin: 0 auto;
+    text-align: center
+  }
+
+  input, input[type="submit"] {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 18px;
+  }
+  
+  input[type="submit"] {
+    height: 36px;
+  }
+
+  #playerZone{
+    position: relative;
+    display: none;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    border: 2px solid black; 
+    padding: 20px;
+  }
+  #timer-wrapper {
+    display: none;
+    position : relative;
+    margin-left : 57%;
+    margin-top: 0px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
+    overflow: hidden
+  }
+  #timer {
+    background-color: rgba(39,174,96,1.0);
+    height: 100%
+  }
+
+  #my-score {
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 30px;
+    padding-bottom: 20px
+  }
+
+  #opponentScore {
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 30px;
+    padding-bottom: 20px
+  }
+  #end {
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+    width : 400px;
+    height: 200px;
+    font-size: 20px
+  }
+
+  #playAgain {
+    display: 'none';
+    width: 200px;
+    height: 50px;
+  }
+
+  button {
+    text-align: center;
+    height: 30px;
+    width: 150px;
+    border-radius : 3px;
+    margin: 0 auto
+  }
